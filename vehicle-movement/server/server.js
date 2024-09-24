@@ -12,6 +12,6 @@ app.use(express.json());
 // Use the routes from routes/vehicle.js
 app.use('/api',vehicleRoutes);
 
-app.listen(port, () => {
+app.listen(port || process.env.PORT, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
