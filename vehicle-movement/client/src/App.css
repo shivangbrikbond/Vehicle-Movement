@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #6c84b4;
+  padding: 20px;
+  color: #b0c72a;
+}
+
+#map {
+  margin: 20px auto;
+  height: 500px;
+  width: 80%;
+  border: 2px solid #000;
+}
+
